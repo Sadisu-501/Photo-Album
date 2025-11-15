@@ -102,6 +102,38 @@ nav h1 {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+  .container img {
+    width: 20px;
+  }
+  nav h1 {
+    font-size: 0.8rem;
+  }
+
+  .nav-icon ion-icon {
+    font-size: 1rem;
+  }
+  .main-contents {
+    grid-template-columns: repeat(1, 300px);
+    padding: 1rem;
+  }
+  .main-contents-button {
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem;
+  }
+  .top-image {
+    width: 100%;
+    height: 40vh;
+    padding: 1rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+}
+
 /* responsive design for Mobile devices upwards*/
 @media (min-width: 480px) and (max-width: 767px) {
   .container {
