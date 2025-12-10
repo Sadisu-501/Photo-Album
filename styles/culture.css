@@ -102,7 +102,7 @@ nav h1 {
     transform: translateY(0);
   }
 }
-
+/* mobile size screen */
 @media screen and (max-width: 480px) {
   .container {
     padding: 1rem;
