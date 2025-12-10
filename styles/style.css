@@ -125,12 +125,15 @@ nav h1 {
     gap: 0;
     padding: 1rem;
   }
+  .main-contents-button a {
+    width: 100%;
+  }
   .top-image {
     width: 100%;
     height: 40vh;
     padding: 1rem;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 }
 
